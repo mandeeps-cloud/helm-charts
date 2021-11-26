@@ -121,7 +121,7 @@ controller:
     runAsUser: 1000
     runAsGroup: 1000
     readOnlyRootFilesystem: true
-    allowPrivilegeEscalation: false
+    allowPrivilegeEscalation: true
   servicePort: 8080
   targetPort: 8080
   # For minikube, set this to NodePort, elsewhere use LoadBalancer
